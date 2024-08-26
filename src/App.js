@@ -1,9 +1,8 @@
-function App() {
+import DateCounter from "./DateCounter"
+export default function App() {
   return (
-    <div className="App">
-      Start
+    <div>
+      <DateCounter />
     </div>
   );
 }
-
-export default App;
